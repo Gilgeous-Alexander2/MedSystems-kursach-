@@ -10,7 +10,7 @@ function Footer() {
                         <div className="footer-main-item">
                             <p>On the other hand we denounce with righteous indignation and dislike menwho.</p>
                             <p>Charms of pleasure of the moment so blinded by desire.</p>
-                        </div>
+                        </div>fgfgdgffg
                     </div>
 
                     <div className="container-mini">
