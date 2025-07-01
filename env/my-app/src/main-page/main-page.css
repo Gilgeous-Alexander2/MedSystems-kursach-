@@ -3,7 +3,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    top: -200px;
+    top: 0px;
     z-index: -1;
     background-image: url(../pics/dentist-banner.jpg);
     height: 90%;
