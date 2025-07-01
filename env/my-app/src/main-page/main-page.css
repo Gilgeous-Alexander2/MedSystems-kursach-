@@ -5,6 +5,8 @@
     left: 0;
     top: -200px;
     z-index: -1;
+    background-image: url(../pics/dentist-banner.jpg);
+
 }
 
 .main-pic-head {
