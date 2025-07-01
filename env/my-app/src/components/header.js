@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './header.css'
 
 function Header() {
@@ -6,14 +7,13 @@ function Header() {
             <div className="container" style={{height:'53px'}}>
                 <nav className="menu-container">
                     <ul style={{padding:0,margin:0}}>
-                        <li className="menu-item"><a>home</a></li>
-                        <li className="menu-item"><a>pages</a></li>
-                        <li className="menu-item"><a>departments</a></li>
-                        <li className="menu-item"><a>contact</a></li>
-                        <li className="menu-item"><a>news</a></li>
+                        <li className="menu-item"><Link to={"/"}>home</Link></li>
+                        <li className="menu-item"><Link to={"/search"}>find a doctor</Link></li>
+                        <div className="menu-item"><Link to={"/profile"}>profile</Link></div>
                     </ul>
                 </nav>
-
+                <div style={{display: 'flex',flexGrow:1}}></div>
+                <div className="menu-item"><Link to={"/login"}>login</Link></div>
             </div>
         </div>
 

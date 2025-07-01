@@ -1,11 +1,12 @@
+import { Route, Routes } from "react-router-dom";
 import './App.css';
-import Header from './components/header';
 import Footer from './components/footer';
-import Info from './main-page/info-page';
-import Main from './main-page/main-page';
-import { Route, Routes } from "react-router-dom"
+import Header from './components/header';
+import Auth from './pages/auth';
 import Home from './pages/home';
 import Login from './pages/login';
+import Profile from './pages/profile';
+import Searchspecialist from './pages/search-specialist';
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/profile' element={<Profile></Profile>}></Route>
+        <Route path='/register' element={<Auth></Auth>}></Route>
+        <Route path='/search' element={<Searchspecialist></Searchspecialist>}></Route>
 
       </Routes>
       <footer>

@@ -1,0 +1,73 @@
+.item2 {
+    width:750px;
+    height: 250px;
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+    gap:30px;
+    padding: 7px;
+    background-color: #fbfbfb;
+    border: 1px #e9e9e9 solid;
+}
+
+.item2-head{
+    font-weight: 700;
+    font-style: normal;
+    color: #313131;
+    font-display: swap;
+    margin:0;
+    margin-bottom: 7px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.item2-text{
+    text-align: left;
+    margin:0;
+    margin-bottom: 15px;
+
+
+}
+
+.item2-bottom{
+    margin:0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.find-doc{
+    height: 300px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 28px 30px 30px 30px;
+    border: 1px #dfeaf2 solid;
+}
+
+.form-doc{
+
+    gap:5px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.select-doc{
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    padding: 1px 10px;
+    height: 40px;
+}
+
+.find-doc-button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px #ccc solid;
+    border-radius: 35px;
+    padding: 7px 30px 7px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    transition: all 0.3s;
+}

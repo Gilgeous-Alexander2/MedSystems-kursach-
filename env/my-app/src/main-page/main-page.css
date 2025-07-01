@@ -1,0 +1,140 @@
+
+.main-pic {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -200px;
+    z-index: -1;
+}
+
+.main-pic-head {
+    z-index: 5;
+    font-weight: 700;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: inherit;
+    line-height: 58px;
+    letter-spacing: 0px;
+    font-size: 48px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+.main-pic-text {
+    z-index: 6;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: inherit;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 17px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+.info-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    left: 0;
+    margin-top: 665px;
+}
+
+.info-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 52px !important;
+    padding-bottom: 44px !important;
+    border-bottom: solid #e1e1e1;
+    box-shadow: 10px #212d45;
+    border-bottom: 2px solid #e1e1e1;
+
+}
+
+.wpb_wrapper {
+    width: 83%;
+}
+
+.item {
+    position: relative;
+    border-right: 2px solid #e1e1e1;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 33px !important;
+    padding-right: 20px !important;
+    padding-bottom: 40px !important;
+    padding-left: 20px !important;
+    background-image: url(https://apexclinic.radiantthemes.com/dentist/wp-content/uploads/sites/4/2018/07/Dentistry-background.png?id=7898) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.item-text {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 36px !important;
+    padding-bottom: 18px !important;
+    padding-left: 36px !important;
+}
+
+.item-head {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+}
+
+.item:last-of-type {
+    border-right: 0px;
+}
+
+
+.info-shadow {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px 0px #e1e1e1;
+}
+
+
+
+.speci-swiper{
+    max-width: 1400px;
+}
+
+
+
+.sch-table{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    position: relative;
+    width:1200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}

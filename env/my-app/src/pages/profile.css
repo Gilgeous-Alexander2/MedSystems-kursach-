@@ -1,0 +1,22 @@
+.profile-bottom{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.profile-bottom-buttons{
+    border-top: 3px solid #e1e1e1;
+    border-bottom: 3px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding: 20px 40px;
+}
+
+.profile-bottom-container{
+    background-color: #e1e1e1;
+    display: flex;
+    flex-grow: 1;
+}
